@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Fábio Moraes Paz | Gestão Comercial & Vendas B2B</title>
+
+<style>
+:root {
+  --bg: #0f172a;
+  --card: #020617;
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+  --accent: #38bdf8;
+  --accent-soft: #0ea5e9;
+  --border: #1e293b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+  background: linear-gradient(180deg, #020617, #0f172a);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
+
+/* HERO */
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+}
+
+.hero .headline {
+  font-size: 18px;
+  color: var(--muted);
+  max-width: 720px;
+}
+
+.hero .actions {
+  margin-top: 28px;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--text);
+  background: transparent;
+}
+
+.btn.primary {
+  background: linear-gradient(135deg, var(--accent), var(--accent-soft));
+  color: #020617;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* SECTIONS */
+section {
+  margin-top: 80px;
+}
+
+section h2 {
+  font-size: 26px;
+  margin-bottom: 18px;
+  letter-spacing: -0.01em;
+}
+
+.card {
+  background: rgba(2,6,23,0.7);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 26px;
+}
+
+/* VALUE */
+.values ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.values li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.values li:last-child {
+  border-bottom: none;
+}
+
+/* EXPERIENCE */
+.timeline .item {
+  margin-bottom: 22px;
+}
+
+.timeline .item strong {
+  display: block;
+  font-size: 16px;
+}
+
+.timeline .item span {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--muted);
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Fábio Moraes Paz</h1>
+    <p class="headline">
+      Executivo em <strong>Gestão Comercial e Vendas B2B</strong>, com mais de 15 anos
+      liderando operações comerciais, canais e crescimento de receita em telecomunicações
+      e bens de consumo.
+    </p>
+
+    <div class="actions">
+      <a class="btn primary" href="../dist/cv-executivo.pdf" target="_blank">CV Executivo (PDF)</a>
+      <a class="btn" href="../dist/cv-gerencial.pdf" target="_blank">CV Gerencial</a>
+      <a class="btn" href="../dist/cv-ats.pdf" target="_blank">CV ATS</a>
+      <a class="btn" href="https://linkedin.com/in/fpaz80" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- VALUE -->
+  <section>
+    <h2>Proposta de Valor</h2>
+    <div class="card values">
+      <ul>
+        <li>Escala de receita B2B com foco em previsibilidade e governança comercial</li>
+        <li>Estruturação e profissionalização de canais e parceiros</li>
+        <li>Gestão de times comerciais orientada a KPIs e performance sustentável</li>
+        <li>Transformação de dados comerciais em decisões executivas</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section>
+    <h2>Experiência em Destaque</h2>
+    <div class="card timeline">
+      <div class="item">
+        <strong>Oliveira & Oliveira (Revenda AMBEV)</strong>
+        <span>Gerente de Vendas • Liderança regional e execução de mercado</span>
+      </div>
+      <div class="item">
+        <strong>Claro S.A.</strong>
+        <span>Gestão Comercial, Canais PME e Vendas Corporativas</span>
+      </div>
+      <div class="item">
+        <strong>Unity Empresas (Parceiro TIM B2B)</strong>
+        <span>Sócio • Gestão de P&L, portfólio e relacionamento corporativo</span>
+      </div>
+      <div class="item">
+        <strong>DIN Telecom</strong>
+        <span>Gerente Comercial • Expansão B2B e performance de vendas</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section>
+    <h2>Contato</h2>
+    <div class="card">
+      <p>Email: <strong>fabiompaz@gmail.com</strong></p>
+      <p>WhatsApp: <strong>+55 91 98576-0414</strong></p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 • Currículo versionado em GitHub Pages
+  </footer>
+
+</div>
+
+</body>
+</html>
