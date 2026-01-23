@@ -1,0 +1,178 @@
+\documentclass[11pt,a4paper]{article}
+
+% --------------------
+% Pacotes
+% --------------------
+\usepackage[margin=1.8cm]{geometry}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{tabularx}
+\usepackage{helvet}
+\usepackage{tikz}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+% --------------------
+% Cores
+% --------------------
+\definecolor{Primary}{HTML}{0A2540}   % Azul escuro
+\definecolor{Secondary}{HTML}{1E40AF} % Azul médio
+\definecolor{Muted}{HTML}{64748B}     % Cinza
+\definecolor{Light}{HTML}{E5E7EB}     % Cinza claro
+\definecolor{Link}{HTML}{CBD5E1}      % Cinza claro (links no header)
+
+% --------------------
+% Estilo das seções
+% --------------------
+\titleformat{\section}
+{\Large\bfseries\color{Primary}}
+{}
+{0em}
+{}
+[\vspace{4pt}\color{Secondary}\rule{\linewidth}{1pt}]
+
+% --------------------
+% Links (cor corrigida)
+% --------------------
+\hypersetup{
+  colorlinks=true,
+  urlcolor=Link
+}
+
+% --------------------
+% Documento
+% --------------------
+\begin{document}
+
+% --------------------
+% Cabeçalho
+% --------------------
+\begin{tikzpicture}[remember picture, overlay]
+\fill[Primary] (current page.north west)
+rectangle ([yshift=-5cm]current page.north east);
+\end{tikzpicture}
+
+\vspace{-0.8cm}
+
+{\Huge\color{white}\textbf{Fábio Moraes Paz}} \\[10pt]
+{\Large\color{white}Gestão Comercial • Vendas B2B • Inteligência de Mercado}
+
+\vspace{10pt}
+
+{\color{white}
+\href{mailto:fabiompaz@gmail.com}{fabiompaz@gmail.com} \quad
+\href{https://wa.me/5591985760414}{(91) 98576-0414} \quad
+\href{https://linkedin.com/in/fpaz80}{linkedin.com/in/fpaz80}
+}
+
+\vspace{36pt}
+
+% --------------------
+% Perfil
+% --------------------
+\section*{Perfil Profissional}
+
+Executivo de \textbf{Gestão Comercial e Vendas B2B}, com mais de
+\textbf{15 anos de experiência} em empresas de grande porte e negócios próprios.
+Especialista em \textbf{liderança de equipes}, \textbf{gestão de canais PME},
+\textbf{planejamento comercial} e \textbf{inteligência de mercado},
+com forte atuação em \textbf{análise de KPIs}, \textbf{negociação corporativa}
+e \textbf{tomada de decisão gerencial}.
+
+% --------------------
+% Experiência
+% --------------------
+\section*{Experiência Profissional}
+
+\textbf{Oliveira \& Oliveira (Revenda AMBEV)} \hfill {\color{Muted}03/2024 -- 07/2025} \\
+\textit{Gerente de Vendas}
+
+\begin{itemize}[leftmargin=1.4em]
+\item Liderança de equipe com metas de volume, rentabilidade e execução
+\item Planejamento e execução estratégica alinhada à AMBEV
+\item Monitoramento de KPIs, mix, sell-out e performance de clientes
+\item Relatórios gerenciais para decisão executiva
+\item Negociação corporativa e gestão contratual
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Unity Empresas (Parceiro TIM B2B)} \hfill {\color{Muted}05/2021 -- 02/2022} \\
+\textit{Sócio / Gerente}
+
+\begin{itemize}[leftmargin=1.4em]
+\item Gestão administrativa, financeira e comercial
+\item Planejamento estratégico e portfólio B2B
+\item Relacionamento com clientes e parceiros
+\item Controle de margem e sustentabilidade
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{DIN Telecom} \hfill {\color{Muted}09/2019 -- 04/2021} \\
+\textit{Gerente Comercial}
+
+\begin{itemize}[leftmargin=1.4em]
+\item Gestão de equipe focada em crescimento B2B
+\item Definição de metas, indicadores e planos de ação
+\item Gestão de funil e canais de venda
+\item Negociação corporativa
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Claro S.A.} \hfill {\color{Muted}01/2011 -- 08/2019} \\
+\textit{Gestão Comercial e Vendas Corporativas}
+
+\begin{itemize}[leftmargin=1.4em]
+\item Analista, Especialista, Gerente de Canal e Coordenador PME
+\item Gestão de canais indiretos e equipes
+\item Planejamento comercial, metas e KPIs
+\item Interface comercial, marketing e operações
+\item Negociação com clientes estratégicos
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Vivo S.A.} \hfill {\color{Muted}02/2009 -- 12/2010} \\
+\textit{Analista de Vendas Jr}
+
+\begin{itemize}[leftmargin=1.4em]
+\item Vendas B2B e suporte comercial
+\item Acompanhamento de indicadores
+\item Relacionamento com clientes empresariais
+\end{itemize}
+
+% --------------------
+% Formação
+% --------------------
+\section*{Formação Acadêmica}
+
+\textbf{Bacharel em Ciências Contábeis} \\
+Universidade Federal do Pará — 1999–2009
+
+% --------------------
+% Competências
+% --------------------
+\section*{Competências Consolidadas}
+
+\begin{tabularx}{\linewidth}{X X}
+Gestão Comercial & Vendas B2B \\
+Gestão de Canais e Parceiros & Sales Operations \\
+KPIs e Performance Comercial & Planejamento Estratégico \\
+Governança Comercial & Negociação Corporativa Complexa \\
+Inteligência Comercial & Análise de Mercado \\
+Revenue Growth Management & Gestão de Times Comerciais \\
+Forecasting e Funil de Vendas & Business Intelligence em Vendas \\
+Excel Avançado & SAP / Promax
+\end{tabularx}
+
+\vfill
+\begin{center}
+{\color{Muted}Currículo atualizado em Janeiro/2026}
+\end{center}
+
+\end{document}
